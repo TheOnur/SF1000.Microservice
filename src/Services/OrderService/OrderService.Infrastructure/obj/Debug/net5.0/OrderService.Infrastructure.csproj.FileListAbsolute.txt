@@ -1,0 +1,11 @@
+D:\SellingSF1000\SF1000.Selling\src\Services\OrderService\OrderService.Infrastructure\bin\Debug\net5.0\OrderService.Infrastructure.deps.json
+D:\SellingSF1000\SF1000.Selling\src\Services\OrderService\OrderService.Infrastructure\bin\Debug\net5.0\OrderService.Infrastructure.dll
+D:\SellingSF1000\SF1000.Selling\src\Services\OrderService\OrderService.Infrastructure\bin\Debug\net5.0\ref\OrderService.Infrastructure.dll
+D:\SellingSF1000\SF1000.Selling\src\Services\OrderService\OrderService.Infrastructure\bin\Debug\net5.0\OrderService.Infrastructure.pdb
+D:\SellingSF1000\SF1000.Selling\src\Services\OrderService\OrderService.Infrastructure\obj\Debug\net5.0\OrderService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\SellingSF1000\SF1000.Selling\src\Services\OrderService\OrderService.Infrastructure\obj\Debug\net5.0\OrderService.Infrastructure.AssemblyInfoInputs.cache
+D:\SellingSF1000\SF1000.Selling\src\Services\OrderService\OrderService.Infrastructure\obj\Debug\net5.0\OrderService.Infrastructure.AssemblyInfo.cs
+D:\SellingSF1000\SF1000.Selling\src\Services\OrderService\OrderService.Infrastructure\obj\Debug\net5.0\OrderService.Infrastructure.csproj.CoreCompileInputs.cache
+D:\SellingSF1000\SF1000.Selling\src\Services\OrderService\OrderService.Infrastructure\obj\Debug\net5.0\OrderService.Infrastructure.dll
+D:\SellingSF1000\SF1000.Selling\src\Services\OrderService\OrderService.Infrastructure\obj\Debug\net5.0\ref\OrderService.Infrastructure.dll
+D:\SellingSF1000\SF1000.Selling\src\Services\OrderService\OrderService.Infrastructure\obj\Debug\net5.0\OrderService.Infrastructure.pdb

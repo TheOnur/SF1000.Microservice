@@ -1,0 +1,15 @@
+D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\bin\Debug\net5.0\NotificationService.exe
+D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\bin\Debug\net5.0\NotificationService.deps.json
+D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\bin\Debug\net5.0\NotificationService.runtimeconfig.json
+D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\bin\Debug\net5.0\NotificationService.runtimeconfig.dev.json
+D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\bin\Debug\net5.0\NotificationService.dll
+D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\bin\Debug\net5.0\ref\NotificationService.dll
+D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\bin\Debug\net5.0\NotificationService.pdb
+D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\obj\Debug\net5.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\obj\Debug\net5.0\NotificationService.AssemblyInfoInputs.cache
+D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\obj\Debug\net5.0\NotificationService.AssemblyInfo.cs
+D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\obj\Debug\net5.0\NotificationService.csproj.CoreCompileInputs.cache
+D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\obj\Debug\net5.0\NotificationService.dll
+D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\obj\Debug\net5.0\ref\NotificationService.dll
+D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\obj\Debug\net5.0\NotificationService.pdb
+D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\obj\Debug\net5.0\NotificationService.genruntimeconfig.cache

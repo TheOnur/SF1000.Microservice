@@ -1,0 +1,12 @@
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Base\bin\Debug\net5.0\EventBus.Base.deps.json
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Base\bin\Debug\net5.0\EventBus.Base.dll
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Base\bin\Debug\net5.0\ref\EventBus.Base.dll
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Base\bin\Debug\net5.0\EventBus.Base.pdb
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Base\obj\Debug\net5.0\EventBus.Base.csproj.AssemblyReference.cache
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Base\obj\Debug\net5.0\EventBus.Base.GeneratedMSBuildEditorConfig.editorconfig
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Base\obj\Debug\net5.0\EventBus.Base.AssemblyInfoInputs.cache
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Base\obj\Debug\net5.0\EventBus.Base.AssemblyInfo.cs
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Base\obj\Debug\net5.0\EventBus.Base.csproj.CoreCompileInputs.cache
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Base\obj\Debug\net5.0\EventBus.Base.dll
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Base\obj\Debug\net5.0\ref\EventBus.Base.dll
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Base\obj\Debug\net5.0\EventBus.Base.pdb
