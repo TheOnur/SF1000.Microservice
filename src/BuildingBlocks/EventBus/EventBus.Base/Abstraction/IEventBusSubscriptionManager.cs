@@ -4,6 +4,9 @@ using System.Collections.Generic;
 
 namespace EventBus.Base.Abstraction
 {
+    /// <summary>
+    /// Be able to store subscriptions we need this interface. By the help of this interface, we will keep subs either in memory or in database.
+    /// </summary>
     public interface IEventBusSubscriptionManager
     {
         bool IsEmpty { get; }

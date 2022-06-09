@@ -24,21 +24,6 @@ namespace EventBus.AzureServiceBus
             topicClient = CreateTopicClient();
         }
 
-        private ITopicClient CreateTopicClient()
-        {
-            if (topicClient == null || topicClient.IsClosedOrClosing)
-            {
-                topicClient = new TopicClient(EventBusConfig.EventBusConnectionString, EventBusConfig.DefaultTopicName, RetryPolicy.Default);
-            }
-
-            if (!managementClient.TopicExistsAsync(EventBusConfig.DefaultTopicName).GetAwaiter().GetResult())
-            {
-                managementClient.CreateTopicAsync(EventBusConfig.DefaultTopicName).GetAwaiter().GetResult();
-            }
-
-            return topicClient;
-        }
-
         public override void Publish(IntegrationEvent @event)
         {
             var eventName = @event.GetType().Name; // eg: OrderCreated.IntegrationEvent
@@ -94,6 +79,32 @@ namespace EventBus.AzureServiceBus
             SubsManager.RemoveSubscription<T, TH>();
         }
 
+        public override void Dispose()
+        {
+            base.Dispose();
+
+            topicClient.CloseAsync().GetAwaiter().GetResult();
+            managementClient.CloseAsync().GetAwaiter().GetResult();
+
+            topicClient = null;
+            managementClient = null;
+        }
+
+        #region Private Methods
+        private ITopicClient CreateTopicClient()
+        {
+            if (topicClient == null || topicClient.IsClosedOrClosing)
+            {
+                topicClient = new TopicClient(EventBusConfig.EventBusConnectionString, EventBusConfig.DefaultTopicName, RetryPolicy.Default);
+            }
+
+            if (!managementClient.TopicExistsAsync(EventBusConfig.DefaultTopicName).GetAwaiter().GetResult())
+            {
+                managementClient.CreateTopicAsync(EventBusConfig.DefaultTopicName).GetAwaiter().GetResult();
+            }
+
+            return topicClient;
+        }
         private void RegisterSubscriptionClientMessageHandler(ISubscriptionClient subscriptionClient)
         {
             subscriptionClient.RegisterMessageHandler(async (message, token) =>
@@ -172,17 +183,7 @@ namespace EventBus.AzureServiceBus
             {
                 logger.LogWarning("The messaging entity {DefaultRuleName} could not be found.", RuleDescription.DefaultRuleName);
             }
-        }
-
-        public override void Dispose()
-        {
-            base.Dispose();
-
-            topicClient.CloseAsync().GetAwaiter().GetResult();
-            managementClient.CloseAsync().GetAwaiter().GetResult();
-
-            topicClient = null;
-            managementClient = null;
-        }
+        } 
+        #endregion
     }
 }

@@ -9,6 +9,9 @@ namespace EventBus.Base.Abstraction
         Task Handle(TIntegrationEvent @event);
     }
 
+    /// <summary>
+    /// It is just for markup
+    /// </summary>
     public interface IntegrationEventHandler
     {
 
