@@ -39,7 +39,7 @@ namespace EventBus.RabbitMQ
                     .Or<BrokerUnreachableException>()
                     .WaitAndRetry(retryCount, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)), (ex, time) =>
                     {
-
+                        // log
                     });
 
                 policy.Execute(() =>
