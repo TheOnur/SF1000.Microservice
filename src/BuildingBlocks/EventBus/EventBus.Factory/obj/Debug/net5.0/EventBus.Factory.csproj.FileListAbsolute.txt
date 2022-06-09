@@ -10,3 +10,10 @@ D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Factory\obj
 D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\net5.0\EventBus.Factory.dll
 D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\net5.0\ref\EventBus.Factory.dll
 D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\net5.0\EventBus.Factory.pdb
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Factory\bin\Debug\net5.0\EventBus.AzureServiceBus.dll
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Factory\bin\Debug\net5.0\EventBus.Base.dll
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Factory\bin\Debug\net5.0\EventBus.RabbitMQ.dll
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Factory\bin\Debug\net5.0\EventBus.AzureServiceBus.pdb
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Factory\bin\Debug\net5.0\EventBus.Base.pdb
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Factory\bin\Debug\net5.0\EventBus.RabbitMQ.pdb
+D:\SellingSF1000\SF1000.Selling\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\net5.0\EventBus.Factory.csproj.CopyComplete
