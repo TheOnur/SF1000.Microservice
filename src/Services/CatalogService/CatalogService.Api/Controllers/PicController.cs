@@ -59,7 +59,6 @@ namespace CatalogService.Api.Controllers
 
         private string GetImageMimeTypeFromImageFileExtension(string imageFileExtension)
         {
-
             if (imageFileExtension == ".png")
             {
                 return "image/png";
@@ -67,6 +66,10 @@ namespace CatalogService.Api.Controllers
             else if (imageFileExtension == "jpeg")
             {
                 return "image/jpeg";
+            }
+            else if (imageFileExtension == ".jpg")
+            {
+                return "image/jpg";
             }
             else
             {
