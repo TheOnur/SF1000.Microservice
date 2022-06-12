@@ -13,3 +13,4 @@ D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationSer
 D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\obj\Debug\net5.0\ref\NotificationService.dll
 D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\obj\Debug\net5.0\NotificationService.pdb
 D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\obj\Debug\net5.0\NotificationService.genruntimeconfig.cache
+D:\SellingSF1000\SF1000.Selling\src\Services\NotificationService\NotificationService\obj\Debug\net5.0\NotificationService.csproj.AssemblyReference.cache

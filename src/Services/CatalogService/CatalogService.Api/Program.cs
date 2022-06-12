@@ -1,11 +1,11 @@
+using CatalogService.Api.Infrastructure.Context;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
+using System.IO;
+using CatalogService.Api.Extensions;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace CatalogService.Api
 {
@@ -13,14 +13,24 @@ namespace CatalogService.Api
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            var hostBuilder = CreateHostBuilder(args);
+
+            hostBuilder.MigrateDbContext<CatalogContext>((context, services) =>
+            {
+                new CatalogContextSeed()
+                .SeedAsync(context, services.GetService<IWebHostEnvironment>(), services.GetService<ILogger<CatalogContextSeed>>()).Wait();
+            });
+
+            hostBuilder.Run();
         }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+        static IWebHost CreateHostBuilder(string[] args)
+        {
+            return WebHost.CreateDefaultBuilder(args)
+                .UseStartup<Startup>()
+                .UseWebRoot("Pics")
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .Build();
+        }
     }
 }
